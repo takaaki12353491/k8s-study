@@ -7,6 +7,8 @@
 `kubectl delete <resource> <name>`
 ###### podに入る
 `kubectl exec -it <name> sh`
+###### 名前解決
+`ping <pod>.<HeadlessService>`
 
 # docker
 ###### コンテナイメージを作成
@@ -24,3 +26,4 @@ kubectl create secret generic mongo-secret \
 --from-literal=root_password=<password> \
 --from-file=./keyfile
 ```
+###### 

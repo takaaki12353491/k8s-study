@@ -22,6 +22,6 @@ metadata:
     env: study
 subsets:
 - addresses:
-  - ip: 172.17.0.11
+  - ip: 10.1.0.109
   ports:
   - port: 27017

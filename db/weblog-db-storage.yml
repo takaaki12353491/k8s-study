@@ -13,7 +13,7 @@ spec:
   accessModes:
   - ReadWriteMany
   hostPath:
-    path: "/data/storage"
+    path: "/private/tmp/data/storage"
     type: Directory
 
 ---

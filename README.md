@@ -1,5 +1,5 @@
 # k8s-study
-podを作成
+リソースを作成
 `kubectl apply -f <file>`
 podを取得
 `kubectl get pod`

@@ -49,3 +49,12 @@ docker run \
   -p 8080:3000 \
   weblog-app:v1.0.0
 ```
+
+# nginx
+```
+docker run \
+  -e APPLICATION_HOSTS="192.168.65.4:30000" \
+  -d \
+  -p 8080:80 \
+  weblog-web:v1.0.0
+```
